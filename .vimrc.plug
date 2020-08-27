@@ -1,0 +1,11 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'tpope/vim-fugitive'
+Plug 'itchyny/lightline.vim'
+Plug 'junegunn/fzf.vim'
+Plug 'preservim/nerdtree'
+Plug 'frazrepo/vim-rainbow'
+Plug 'dense-analysis/ale'
+Plug 'airblade/vim-gitgutter'
+
+call plug#end()
